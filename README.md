@@ -8,6 +8,11 @@
 ## About this application:
 
 <h1>This is an application where Bangladeshi citizens can access facilities and fulfill their responsibilities towards their country</h1>
+
+##Screenshots:
+![Screenshot 2024-05-08 204312](https://github.com/rakibhassan66/rakibhassan66/assets/72136153/3cb49b45-165f-41a7-8dfa-3899ffc89005)
+![Screenshot 2024-05-08 205103](https://github.com/rakibhassan66/rakibhassan66/assets/72136153/427c9a13-1850-46fa-a7d4-b1fe71791d8e)
+![Screenshot 2024-05-08 204248](https://github.com/rakibhassan66/rakibhassan66/assets/72136153/88fbfcff-e94e-4e8f-a1fe-747f99634704)
           
 
  ##   📊 GitHub Stats:
