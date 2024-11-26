@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#433878"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/flyout_background"
+        android:padding="16dp"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:drawableLeft="@drawable/pen"
+        android:textColor="@color/edit_text_color"
+        android:hint="  Insert your name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColorHint="@color/hint_color"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:drawableLeft="@drawable/mail"
+        android:hint="  Insert your email"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColorHint="@color/hint_color"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:hint="  Type password"
+        android:drawableLeft="@drawable/pass"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColorHint="@color/hint_color"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:id="@+id/confirm_password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:drawableLeft="@drawable/pass"
+        android:textColor="@color/black"
+        android:hint="  Confirm your password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColorHint="@color/hint_color"
+        android:drawablePadding="20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_terms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:minHeight="48dp"
+        android:text="Terms &amp; Condition will apply below"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonbg"
+        android:layout_margin="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Sign up"
+        android:background="@drawable/button_gradient" />
+</LinearLayout>

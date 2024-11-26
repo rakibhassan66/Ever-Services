@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#433878"
+        android:endColor="#7E60BF"
+        android:angle="45" />   <!-- Gradient from top-left to bottom-right -->
+    <corners android:radius="100dp" />   <!-- Optional: Rounds the button's corners -->
+</shape>

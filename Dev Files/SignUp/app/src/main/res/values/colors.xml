@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_gray">#FF555555</color>
+    <color name="light_gray">#FFCCCCCC</color>
+    <color name="hint_color">#FF888888</color> <!-- Color for hints -->
+    <color name="primary">#433878</color> <!-- Background color -->
+    <color name="accent">#FF6200EE</color> <!-- Accent color for buttons, etc. -->
+    <color name="edit_text_color">#FF000000</color> <!-- New color for EditText text (Black) -->
+</resources>
