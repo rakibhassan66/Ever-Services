@@ -1,4 +1,4 @@
-package com.example.recyckeview
+package com.example.recyclerview
 
 import org.junit.Test
 

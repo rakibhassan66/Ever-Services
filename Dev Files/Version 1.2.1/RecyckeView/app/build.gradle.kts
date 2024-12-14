@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.recyckeview"
-    compileSdk = 34
+    namespace = "com.example.recyclerview"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.recyckeview"
+        applicationId = "com.example.recyclerview"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -45,4 +45,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation ("androidx.navigation:navigation-compose:2.7.6")
 }
