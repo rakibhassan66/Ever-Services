@@ -55,22 +55,6 @@ Ensure the following tools are installed on your system:
 - [Git](https://git-scm.com/)  
 
 ---
-# Clone the repository
-git clone https://github.com/rakibhassan66/national-service-app.git
-
-# Navigate into the project directory
-cd national-service-app
-
-# Install necessary dependencies (Ensure Node.js and npm are installed first)
-npm install
-
-# Open the project in Android Studio
-# This step is manual: open Android Studio and select 'File > Open', then navigate to the cloned directory.
-
-# If you need to run the Android app:
-npm run android
-
-# To contribute, fork the repo, make your changes, and submit a pull request.
 
 ### Clone the Repository  
 ```bash
