@@ -56,12 +56,6 @@ Ensure the following tools are installed on your system:
 
 ---
 
-### Clone the Repository  
-```bash
-git clone https://github.com/rakibhassan66/national-service-app.git
-cd national-service-app
-
-
 ## 📂 Project Structure  
 ```mermaid
 graph LR
